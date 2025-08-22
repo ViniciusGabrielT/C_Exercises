@@ -46,10 +46,11 @@ int main()
         ex05();
         break;
     default:
-        printf("Error! This exercise isn't available yet. Try another one.");
+        printf("Error! This exercise isn't available yet. Try another one.\n");
         break;
     }
 
+    system("pause");
     end();
 
     return 0;
@@ -68,7 +69,7 @@ void ex01()
     printf("\nType your height in meters: ");
     scanf("%f", &m);
 
-    printf("\nYour BMI is: %.2f", kg / (m * m));
+    printf("\nYour BMI is: %.2f\n", kg / (m * m));
 }
 
 void ex02()
@@ -81,7 +82,7 @@ void ex02()
     printf("\nType the current exchange rate: US$");
     scanf("%f", &usd);
 
-    printf("\nR$%.2f in USD is US$%.2f.", brl, brl * usd);
+    printf("\nR$%.2f in USD is US$%.2f.\n", brl, brl * usd);
 }
 
 void ex03()
@@ -94,7 +95,7 @@ void ex03()
     printf("\nType the land width in meters: ");
     scanf("%d", &width);
 
-    printf("\nThe land area is %d square meters.", length * width);
+    printf("\nThe land area is %d square meters.\n", length * width);
 }
 
 void ex04()
@@ -111,40 +112,40 @@ void ex04()
         printf("\nType the Celsius temp to be converted to Fahrenheit: ");
         scanf("%f", &x);
         y = ctof(x);
-        printf("\nResult: %.2f%cC = %.2f%cF", x, grade, y, grade);
+        printf("\nResult: %.2f%cC = %.2f%cF\n", x, grade, y, grade);
         break;
     case 2:
         printf("\nType the Celsius temp to be converted to Kelvin: ");
         scanf("%f", &x);
         y = ctok(x);
-        printf("\nResult: %.2f%cC = %.2fK", x, grade, y);
+        printf("\nResult: %.2f%cC = %.2fK\n", x, grade, y);
         break;
     case 3:
         printf("\nType the Fahrenheit temp to be converted to Celsius: ");
         scanf("%f", &x);
         y = ftoc(x);
-        printf("\nResult: %.2f%cF = %.2f%cC", x, grade, y, grade);
+        printf("\nResult: %.2f%cF = %.2f%cC\n", x, grade, y, grade);
         break;
     case 4:
         printf("\nType the Fahrenheit temp to be converted to Kelvin: ");
         scanf("%f", &x);
         y = ftok(x);
-        printf("\nResult: %.2f%cF = %.2fK", x, grade, y);
+        printf("\nResult: %.2f%cF = %.2fK\n", x, grade, y);
         break;
     case 5:
         printf("\nType the Kelvin temp to be converted to Celsius: ");
         scanf("%f", &x);
         y = ktoc(x);
-        printf("\nResult: %.2fK = %.2f%cC", x, y, grade);
+        printf("\nResult: %.2fK = %.2f%cC\n", x, y, grade);
         break;
     case 6:
         printf("\nType the Kelvin temp to be converted to Fahrenheit: ");
         scanf("%f", &x);
         y = ktof(x);
-        printf("\nResult: %.2fK = %.2f%cF", x, y, grade);
+        printf("\nResult: %.2fK = %.2f%cF\n", x, y, grade);
         break;
     default:
-        printf("\nError! Option unavailable.");
+        printf("\nError! Option unavailable.\n");
         break;
     }
 }
