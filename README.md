@@ -1,7 +1,4 @@
 # C_Exercises
-A compilation of exercises I completed using the C programming language to familiarize myself with programming. I covered basic topics like user input, loops, primitive types, operators, pointers, arrays, and more.
+Script em C, uma linguagem de programação mid-level, que compila 28 exercícios básicos de lógica de programação. O script executa exercícios com conceitos básicos como inputs de usuários, loops, tipos primitivos, operadores lógicos, aritméticos e relacionais, matrizes e vetores etc.  
 
-**Como executar os exercícios:**
-
-Para executar o script, baixe o arquivo "a.exe":  
-![alt text](image.png)
+Para rodar o script, baixe e execute o arquivo "executar_script.exe".
